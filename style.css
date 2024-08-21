@@ -1,0 +1,43 @@
+body {
+    background-image: url('Assets/magalu-logo-0-2048x2048_1705432673.png');
+    background-size:contain;
+    background-position:initial;
+    font-family: Arial, sans-serif;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    color:#0E87FE;
+}
+form {
+    display: flex;
+    gap: 15px;
+    flex-direction:column;
+}
+input {
+    font-size: 15px;
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color:#0E87FE;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.excluir {
+    background-color: #f44336;
+    padding: 5px;
+}
+
+button.excluir:hover {
+    background-color: #e53935;
+}
